@@ -19,7 +19,14 @@
         "react",
         "@typescript-eslint"
     ],
+    "settings": {
+        "react": {
+            "version": "detect"
+        }
+    },
     "rules": {
+        "react/react-in-jsx-scope": "off",
+
         "indent": [
             "error",
             "tab"
@@ -35,16 +42,6 @@
         "semi": [
             "error",
             "always"
-        ],
-        "react/react-in-jsx-scope": "off"
-    },
-    "ignorePatterns": [
-        "*dist*",
-        "*storybook-static*"
-    ],
-    "settings": {
-        "react": {
-          "version": "18.X"
-        }
-      }
+        ]
+    }
 }
