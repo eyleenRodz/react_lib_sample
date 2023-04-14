@@ -9,7 +9,7 @@ interface TitleProps {
 const Title = memo( function Title({title, level}:TitleProps): JSX.Element {
 	switch (level) {
 	case 2:
-		return <h2>{title}</h2>;
+		return <h2> Hello world the title : {title}</h2>;
 	case 3:
 		return <h3>{title}</h3>;
 	case 4:
