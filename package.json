@@ -1,7 +1,6 @@
 {
   "name": "@eyleen/ant_v_ui",
-
-  "version": "0.2.0-beta",
+  "version": "0.2.0",
   "main": "dist/index.cjs.js",
   "module": "dist/index.es.js",
   "types": "dist/index.d.ts",
